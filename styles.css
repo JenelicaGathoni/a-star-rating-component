@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+   
+}
+body{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    border-style: groove;
+    border: 1px solid blue;
+    background-color: black;
+    
+}
+
+
+h1{
+    text-align: center;
+    color: blue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    
+}
+.stars{
+   display: flex;
+   justify-content: center;
+   border: 1px solid gold;
+   max-width: 100%;
+   margin-left: 1em;
+   padding: 1em;
+   animation-name: bounce;
+   animation-duration: 5s;
+   animation-timing-function: ease-in;
+   /* animation-delay: 3s; */
+   animation-fill-mode: both;
+   /* animation-iteration-count: 1; */
+}
+ @keyframes bounce{
+    0%{transform: translateY(-50px);
+
+    }
+    25%{
+       transform:  rotate(12000000000deg)
+    }
+ }
+
+   
+.fa{
+    color: rgb(34, 135, 223);
+    font-size: 2em;
+    
+    
+}
+.fa:hover{
+    cursor: pointer;
+}
